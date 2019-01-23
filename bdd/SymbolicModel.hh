@@ -37,6 +37,10 @@ protected:
   SymbolicSet *stateSpace_;
   /* var: inputSpace_ */
   SymbolicSet *inputSpace_;
+  /*todo: internal disturbance input*/
+  
+  /*var:id_of_model: id for each component*/
+  int id_of_model;
   /* var: stateSpacePost_ */
   SymbolicSet *stateSpacePost_;
   /* var: nssVars_ 
